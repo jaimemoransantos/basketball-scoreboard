@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.score-btn{
+    font-family:'digital-clock-font';
+    background-color: #1B244A;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #9AABD8;
+    color: #9AABD8;
+    margin: 10px 2px 0 2px;
+}
+
+.score-btn:hover{
+    background-color: #242F40;
+}
+
+
+h3{
+    color: #FAFAFA;
+    font-size: 30px;
+    margin: 0;
+}
+
+@font-face{
+ font-family:'digital-clock-font';
+ src: url('CursedTimerULiL.ttf');
+}
+
+p{
+    font-family:'digital-clock-font';
+    font-size: 80px;
+    margin: 10px 0;
+    padding: 10px 50px;
+    background-color: #080001;
+    border-radius: 7px;
+    color: #F94F6D;
+}
+
+#main{
+    background-color: #1B244A;
+    border: 3px solid #FAFAFA;
+    border-radius: 15px;
+    width: 450px;
+    padding: 40px 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#reset-btn{
+    margin: 20px 0 0px 0;
+    font-family:'digital-clock-font';
+    background-color: #1B244A;
+    border-radius: 3px;
+    color: #9AABD8;
+    border-radius: 3px;
+    border: 1px solid #9AABD8;
+    padding: 10px 15px
+}
+
+#reset-btn:hover{
+    background-color: #242F40;
+}
